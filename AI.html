@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department of Artificial Intelligence | Autonomous Institute</title>
+    <style>
+        :root {
+            --primary: #0f172a;
+            --secondary: #2563eb;
+            --accent: #06b6d4;
+            --bg-light: #f8fafc;
+            --text-dark: #334155;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: system-ui, -apple-system, sans-serif;
+        }
+        body {
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 2.5rem 1rem;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 0.5rem;
+        }
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .info-card {
+            background: white;
+            padding: 1.8rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+            border-top: 4px solid var(--secondary);
+        }
+        .info-card h3 {
+            color: var(--primary);
+            margin-bottom: 0.8rem;
+            font-size: 1.3rem;
+        }
+        .highlight-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: var(--secondary);
+            margin: 0.5rem 0;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        ul li {
+            padding: 0.4rem 0;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        ul li:last-child {
+            border-bottom: none;
+        }
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background: var(--primary);
+            color: white;
+            margin-top: 3rem;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Department of Artificial Intelligence</h1>
+        <p>Autonomous Institute of Technology & Science</p>
+    </header>
+
+    <div class="container">
+        <div class="card-grid">
+            <div class="info-card">
+                <h3>Program Intake</h3>
+                <p>Approved annual seat capacity for B.Tech Artificial Intelligence:</p>
+                <div class="highlight-number">300</div>
+                <p>Seats allocated via centralized autonomous counseling & merit.</p>
+            </div>
+
+            <div class="info-card">
+                <h3>Core Labs</h3>
+                <p>Advanced infrastructure available for student innovation:</p>
+                <ul>
+                    <li>Deep Learning & GPU Cluster</li>
+                    <li>Robotics & Computer Vision</li>
+                    <li>Natural Language Processing Lab</li>
+                </ul>
+            </div>
+
+            <div class="info-card">
+                <h3>Quick Highlights</h3>
+                <p>Key academic attributes:</p>
+                <ul>
+                    <li>Autonomous Curriculum</li>
+                    <li>Industry-Backed Electives</li>
+                    <li>100% Placement Support</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 Autonomous Institute. All rights reserved.
+    </footer>
+
+</body>
+</html>
